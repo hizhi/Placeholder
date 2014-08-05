@@ -7,7 +7,7 @@ Placeholder
 
 Use the plugin as follows:
 
-#### js
+#### JS
 
 ```js
 $('input').placeholder();
