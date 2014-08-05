@@ -39,10 +39,9 @@ If you really want to, though, you can [style the placeholder text in some of th
 ### Notes
 
 if you use `<input>` element, you should set `id`, like
-
-    ```html
-    <input id="username" type="email" name="username" placeholder="username">
-    ```
+ ```html
+  <input id="username" type="email" name="username" placeholder="username">
+ ```
 
 The `<label>` who the plugin created will always point to the `<input>` element, and the `<input>` element will focus when you click.
 
