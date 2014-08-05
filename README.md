@@ -10,7 +10,7 @@ Use the plugin as follows:
 #### js
 
 ```js
-$('input, textarea').placeholder();
+$('input').placeholder();
 ```
 
 #### CSS
