@@ -28,12 +28,12 @@
 ;(function($) {
 	var isPlaceholderSupported = ('placeholder' in document.createElement('input')) && ('placeholder' in document.createElement('textarea'));
 	
-	// if (isPlaceholderSupported) {
-	// 	$.fn.placeholder = function () {
-	// 		return this;
-	// 	}
-	// 	return ;
-	// }
+	if (isPlaceholderSupported) {
+		$.fn.placeholder = function () {
+			return this;
+		}
+		return ;
+	}
 	
 	var Placeholder = {
 
