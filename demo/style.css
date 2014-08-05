@@ -1,0 +1,19 @@
+input {
+	font: 1em/1.4 Helvetica, Arial;
+	width: 14em;
+}
+textarea { 
+	height: 5em; width: 20em; 
+}
+.placeholder-wrapper {
+    position: relative;
+    display: inline-block;
+}
+.placeholder {
+     position: absolute;
+		 left: 0;
+		 top: 0;
+     padding: 7px, 4px;
+	   color: #aaa;
+		 cursor: text;
+}
